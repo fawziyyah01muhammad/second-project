@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'ubuntu' sans-serif;
+}
+/******* FACILITIES ******/
+#facilities{
+    background:linear-gradient(rgb(250, 191, 227), rgba(252, 177, 239, 0.726)), url(../img/flower.jpg);
+    padding: 30px 0px;
+
+}
+#facilities h1{
+font-weight: 900;
+font-size: 32px;
+padding-bottom: 5px;
+text-align: center;
+color: rgb(238, 86, 243);
+}
+.title{
+    text-align: center;
+    padding: 25px 0px;
+    
+}
+.title p{
+    font-size: 18px;
+    
+}
+/* .card-body{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+} */
+.card{
+    margin: 20px 40px;
+    background-image: url(../img/w.f3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 90vh;
+  width: 25vw; */
+}
+.card-body a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+.card-body a:hover{
+    color: white;
+    text-decoration: none;
+}
+.card-text{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+}
+img{
+    border-radius: 70%;
+    margin-top: 5px;
+    margin-left: 50px;
+    -webkit-box-shadow: 2px 1px 5px 2px rgba(131, 128, 131, 0.836);
+    -moz-box-shadow: 2px 1px 5px 2px rgba(175, 170, 171, 0.836);
+    box-shadow: 2px 1px 5px 2px rgba(129, 125, 129, 0.836);
+  }
+
+
+  #circle2{
+    width: 105px;
+    height: 105px;
+    margin-right: 80px;
+  /* position: absolute; */
+  border-radius: 70px;
+  background-color:rgb(238, 86, 243);
+  }
+
+  /* Bootstrap custome carousel */
+.carousel-indicators .active {
+    color: blue !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 60%;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white !important;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+  }
+  
+  @media(max-width:952px){
+    .card{
+      margin: 20px 20px;
+      background-image: url(../img/w.f3.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  
+    }
+  }
